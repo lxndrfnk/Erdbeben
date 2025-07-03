@@ -33,3 +33,11 @@ def fetch_earthquake_data(url):
 # Fetch real-time earthquake data
 realtime_url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson"
 df = fetch_earthquake_data(realtime_url)
+
+# ----- Titel der App -----
+
+st.title("Earthquake Explorer")
+
+# ----- Auswahl der Datenfelder -----
+
+st.date_input()
